@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Adventure camp-Campo estivo per ragazzi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+  <link rel="stylesheet" href="stili/stile.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+    <header class="header clearfix">
+    	<a href="index.html"><img src="img/logo.png" alt="logo" width="110px" height="70px"/></a>
+          <a href=""class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </a> 
+    	    <ul class="header__menu animate">
+ 	        <li class="header__menu__item"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+ 	        <li class="header__menu__item"><a href="chisiamo.html">Chi siamo?</a></li>
+          <li class="header__menu__item"><a href="attivitaricreative.html">Attività ricreative</a></li>
+          <li class="header__menu__item"><a href="attivitasportive.html">Attività sportive</a></li>
+          <li class="header__menu__item"><a href="avventure.html">Avventure</a></li>
+          <li class="header__menu__item"><a href="areainformazioni.html">Area informazioni</a></li>
+        </ul> 
+     </header>
+
+    <section class="cover"> 
+    	<div class="cover__filter"></div>
+       <div class="cover__caption">
+       	<div class="cover__caption__copy">
+       		<h1><b><span style="font-family:'Comic Sans MS'">Benvenuti in Adventure Camp</span></b></h1>
+       		<h2><span style="font-family:'Comic Sans MS'">Funny holidays for kids</span></h2>	
+
+       	</div>	
+       	</div>
+       </section>
+<section class="cards clearfix">
+  <div class="card">
+    <img class="card__image"src="img/foto1.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy">
+    <p><span style="font-family:'Comic Sans MS'"> I bambini sono come i marinai,dovunque si posano i loro occhi è l'immenso. 
+    <i> Cit. Michel de Montaigne </i></span> </p>
+    </div>  
+  </div>
+
+  <div class="card">
+    <img class="card__image"src="img/foto2.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy">
+    <p><span style="font-family:'Comic Sans MS'"> I giochi dei bambini non sono giochi,e bisogna considerarli come le loro azioni più serie. 
+    <i> Cit.Christian Bobin </i></span> </p>
+      
+      
+
+    </div>
+  </div>  
+
+    <div class="card">
+    <img class="card__image"src="img/foto3.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy">
+    <p><span style="font-family:'Comic Sans MS'">L’estate è giunta: e con essa è giunto il tempo di una felicità naturale.
+    <br><i>Cit. Diego Valeri </i></span></p>
+
+    </div>  
+  </div>
+  </section>
+
+
+  <section class="banner clearfix">
+    <div class="banner__image"></div>
+      <div class="banner__copy">
+        <div class="banner__copy__text"> 
+         <h3><i><b><span style="font-family:'Comic Sans MS'">Adventure Camp</h3></span></b></i>
+        <p><span style="font-family:'Comic Sans MS'">Quest'anno la fine della scuola è arrivata molto più velocemente, ADVENTURE CAMP, darà la possibilità di far vivere ai vostri figli qualche settimana lontani da casa,contribuendo alla loro crescita personale,allo sviluppo della loro socializzazione, coinvolgendoli in svariate attività e soprattutto in nuove ed uniche esperienze!</span></p>
+
+     
+      </div>
+      </div>
+    </section>
+    <br>
+<br>
+
+  <section class="banner--2 clearfix">
+    <br>
+   <div class="banner__copy__text--2"> 
+    <h3><i><b><span style="font-family:'Comic Sans MS'">L'estate 2020 sta arrivando!<br>Sono aperte le iscrizioni<br>Unisciti a noi<i class="fa fa-sun-o"></h3></span></b></i>
+   <center><p><b><a href="iscrizione.html">Iscriviti>> </a></b></p></center>
+      </div>
+      
+    </section>
+
+  
+
+
+<footer class="footer">
+  <p>Copiright@2020"Adventurecamp".it</p>
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-youtube"></i>
+</footer>
+
+
+
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+
+        $(".header__icon-bar").click(function(e){
+
+          $(".header__menu").toggleClass('is-open');
+          e.preventDefault();
+
+    	});
+    	});
+   </script>
+
+
+
+   </body>
+</html>

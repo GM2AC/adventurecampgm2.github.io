@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Adventure camp-Campo estivo per ragazzi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+  <link rel="stylesheet" href="stili/stile.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+    <header class="header clearfix">
+      <a href="index.html"><img src="img/logo.png" alt="logo" width="110px" height="70px"/></a>
+      <a href=""class="header__icon-bar">
+          <span></span>
+        <span></span>
+        <span></span>
+        </a> 
+      <ul class="header__menu animate">
+          <li class="header__menu__item"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+          <li class="header__menu__item"><a href="chisiamo.html">Chi siamo?</a></li>
+            <li class="header__menu__item"><a href="attivitaricreative.html">Attività ricreative</a></li>
+            <li class="header__menu__item"><a href="attivitasportive.html">Attività sportive</a></li>
+            <li class="header__menu__item"><a href="avventure.html">Avventure</a></li>
+            <li class="header__menu__item"><a href="areainformazioni.html">Area informazioni</a></li>
+        </ul> 
+     </header>
+
+    <section class="cover cover--avventure"> 
+      <div class="cover__filter"></div>
+       <div class="cover__caption">
+        <div class="cover__caption__copy">
+          <h1><b><span style="font-family:'Comic Sans MS'">Benvenuti in Adventure Camp</span></b></h2>
+          <h2><span style="font-family:'Comic Sans MS'">Funny holidays for kids</span></h2> 
+
+        </div>  
+        </div>
+       </section>
+
+
+
+<article class="pagine--avventure">
+    <div class="pagine__copy--avventure">
+    <h1><b><span style="font-family:'Comic Sans MS'">Le avventure di Adventure Camp</span></b></h1>
+    <p><span style="font-family:'Comic Sans MS'">Adventure Camp,concentrato in una location naturalistica,permette ai bambini e ai ragazzi di riscoprire il contatto con la natura,con l'acqua,dando la possibilità di sviluppare doti ormai sempre più nascoste, come l'orientamento,l'esplorazione o l'attenzione verso l'ambiente e le persone che lo circondano allontanando i giovani dalla routine e dalla sedentarietà alle abitudini quotidiane e cittadine.È importante però evidenziare che i programmi delle attività sono sempre accuratamente studiati e perfezionati da educatori esperti e tutto quindi si svolge in un contesto di massima sicurezza e controllo, consentendo ai genitori di sentirsi sereni nell’affidare i propri figli ad una comunità che li guida e li tutela!</p></span>
+     </div>
+     </article>
+
+
+<section class="cards cards--avventure clearfix">
+  <div class="card--avventure1">
+    <img class="card__image--avventure1"src="img/foto13.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy--avventure1">
+   <p><span style="font-family:'Comic Sans MS'"> Escursioni in montagna con i ragazzi di Adventure Camp. </span></p>
+
+   
+    </div>  
+  </div>
+
+  <div class="card--avventure2">
+    <img class="card__image--avventure2"src="img/foto14.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy--avventure2">
+    <p><span style="font-family:'Comic Sans MS'">Campeggio con i ragazzi di Adventure Camp.</span></p>
+
+   
+      
+
+    </div>
+  </div>  
+
+    <div class="card--avventure3">
+    <img class="card__image--avventure3"src="img/foto15.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy--avventure3">
+    <p><span style="font-family:'Comic Sans MS'">Gite al mare con i ragazzi di Adventure Camp.</span></p>
+
+    </div>  
+  </div>
+  </section>
+  <center><h3>Contattaci!</h3></center>
+  <center><h4>Prenota l'escursione insieme a noi</h4></center>
+  <center><p><b><a href="areainformazioni.html">INFO>> </a></b></p></center>
+
+
+
+
+
+<footer class="footer">
+  <p>Copiright@2020"Adventurecamp".it</p>
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-youtube"></i>
+</footer>
+
+
+
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+
+        $(".header__icon-bar").click(function(e){
+
+          $(".header__menu").toggleClass('is-open');
+          e.preventDefault();
+
+      });
+      });
+   </script>
+
+
+
+   </body>
+</html>

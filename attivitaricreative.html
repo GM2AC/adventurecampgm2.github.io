@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Adventure camp-Campo estivo per ragazzi</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+  <link rel="stylesheet" href="stili/stile.css">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+<body>
+
+    <header class="header clearfix">
+    	<a href="index.html"><img src="img/logo.png" alt="logo" width="110px" height="70px"/></a>
+    	<a href=""class="header__icon-bar">
+    	    <span></span>
+    		<span></span>
+    		<span></span>
+        </a> 
+    	<ul class="header__menu animate">
+ 	        <li class="header__menu__item"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+ 	        <li class="header__menu__item"><a href="chisiamo.html">Chi siamo?</a></li>
+            <li class="header__menu__item"><a href="attivitaricreative.html">Attività ricreative</a></li>
+            <li class="header__menu__item"><a href="attivitasportive.html">Attività sportive</a></li>
+            <li class="header__menu__item"><a href="avventure.html">Avventure</a></li>
+            <li class="header__menu__item"><a href="areainformazioni.html">Area informazioni</a></li>
+        </ul> 
+     </header>
+
+    <section class="cover cover--attivitaricreative"> 
+    	<div class="cover__filter"></div>
+       <div class="cover__caption">
+       	<div class="cover__caption__copy">
+       		<h1><b><span style="font-family:'Comic Sans MS'">Benvenuti in Adventure Camp</span></b></h2>
+       		<h2><span style="font-family:'Comic Sans MS'">Funny holidays for kids</span></h2>	
+
+       	</div>	
+       	</div>
+       </section>
+       <br>
+   <article class="pagine pagine--attivitaricreative">
+    <div class="pagine__copy--attivitaricreative">
+    <h1><b><span style="font-family:'Comic Sans MS'">Attività ricreative</span></b></h1>
+    <p><span style="font-family:'Comic Sans MS'">La creatività per ragazzi e bambini significa favorire lo sviluppo delle loro potenzialità e attitudini.Investire tempo e impegno nell'accrescimento della creatività è importante per lo sviluppo dei 5 sensi,per l'equilibrio della vita psichica ma sopratutto per potenziare le capacità d'espressione e comunicazione.</span> </p>
+    </div>
+   </article>
+
+
+
+<section class="cards cards--attivitaricreative clearfix">
+  <div class="card--attivitaricreative">
+    <img class="card__image--attivitaricreative"src="img/foto4.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy--attivitaricreative">
+    <h3>Attività didattiche<i class="fa fa-book"></i></h3>
+    <p><span style="font-family:'Comic Sans MS'"> Adventure Camp è un campo estivo incentrato su attività didattiche che consente a bambini e ragazzi di imparare giocando e divertendosi,utilizzando metodi diversi rispetto ai programmi scolastici.</span> </p>
+    </div>  
+  </div>
+
+  <div class="card--attivitaricreative">
+    <img class="card__image--attivitaricreative"src="img/foto5.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy--attivitaricreative">
+    <h3>Attività culinarie <i class="fa fa-cutlery"></i></h3>  
+    <p><span style="font-family:'Comic Sans MS'"> In Adventure Camp puoi trovare dei laboratori di cucina,seguiti dalla degustazione dei piatti preparati, con lo scopo di responsabilizzare e formare i giovani.</span> </p>
+      
+      
+
+    </div>
+  </div>  
+
+    <div class="card--attivitaricreative">
+    <img class="card__image--attivitaricreative"src="img/foto6.jpg" alt="foto" width="400px" height="260px">
+    <div class="card__copy--attivitaricreative">
+    <h3>Attività di decoupage<i class="fa fa-paint-brush"></i></h3>
+    <p><span style="font-family:'Comic Sans MS'">Adventure Camp mette a disposizione una serie di corsi e laboratori per accrescere la cretività dei bambini in ambiti diversi,come ad esempio l'arte del decoupage.</span></p>
+
+    </div>  
+  </div>
+  </section>
+
+
+
+
+
+<center><h4>Orari attività didattiche</h4></center>
+<center><button type="button" onclick="myFunction1()">Clicca qui!</button></center>
+<center><p id="demo1"></p></center>
+<br>
+
+<center><h4>Orari attività culinarie</h4></center>
+<center><button type="button" onclick="myFunction2()">Clicca qui!</button></center>
+<center><p id="demo2"></p></center>
+<br>
+
+<center><h4>Orari attività di decoupage</h4></center>
+<center><button type="button" onclick="myFunction3()">Clicca qui!</button></center>
+<center><p id="demo3"></p></center>
+
+
+
+<br>
+
+
+
+      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+   $(document).ready(function(){
+
+        $(".header__icon-bar").click(function(e){
+
+          $(".header__menu").toggleClass('is-open');
+          e.preventDefault();
+
+    	});
+    	});
+
+   </script>
+
+<script> 
+
+function myFunction1() { 
+  document.getElementById("demo1").innerHTML = "Dal lunedì al venerdì dalle 10.00 alle 11.00";
+}
+</script>
+
+<br>
+
+<script> 
+
+function myFunction2() { 
+  document.getElementById("demo2").innerHTML = "Dal lunedì al sabato dalle 15.00 alle 16.00";
+}
+</script>
+
+<br>
+<script> 
+
+function myFunction3() { 
+  document.getElementById("demo3").innerHTML = "Dal lunedì al sabato dalle 12.00 alle 13.00";
+}
+</script>
+<br>
+
+
+
+
+<footer class="footer clearfix">
+  <p>Copiright@2020"Adventurecamp".it</p>
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-instagram"></i>
+  <i class="fa fa-youtube"></i>
+</footer>
+
+
+
+   </body>
+</html>
+
